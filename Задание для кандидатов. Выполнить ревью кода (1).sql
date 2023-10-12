@@ -1,5 +1,7 @@
 create procedure syn.usp_ImportFileCustomerSeasonal
+(
 	@ID_Record int
+)
 as
 begin
 	set nocount on
